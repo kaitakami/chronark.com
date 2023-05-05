@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Kai Takami",
+		template: "%s | Kai Takami",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Full Stack developer passionate about building great software",
 	openGraph: {
-		title: "chronark.com",
+		title: "Kai Takami",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Full stack developer passionate about building great software",
+		url: "https://portfolio.kaitakami.dev",
+		siteName: "portfolio.kaitakami.dev",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://portfolio.kaitakami.dev.com/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Kai Takami",
 		card: "summary_large_image",
 	},
 	icons: {
@@ -63,9 +63,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
+				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+					}`}
 			>
 				<Analytics />
 				{children}

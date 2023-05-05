@@ -29,30 +29,20 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				chronark
+				Kai Takami
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Andreas, I'm building serverless and open source
-					solutions at{" "}
-					<Link
-						target="_blank"
-						href="https://upstash.com"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						Upstash
-					</Link>
-
-					<br />
+					Hi, I'm a full stack developer looking for a job{" "}
 					and working on{" "}
 					<Link
 						target="_blank"
-						href="https://planetfall.io"
+						href="https://consulting.kaitakami.dev"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						planetfall.io
+						Kai Consulting
 					</Link>{" "}
 					at night.
 				</h2>
