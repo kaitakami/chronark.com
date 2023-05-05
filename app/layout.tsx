@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "Kai Takami",
 		description:
 			"Full stack developer passionate about building great software",
-		url: "https://portfolio.kaitakami.dev",
-		siteName: "portfolio.kaitakami.dev",
+		url: "https://hire.kaitakami.dev",
+		siteName: "hire.kaitakami.dev",
 		images: [
 			{
-				url: "https://portfolio.kaitakami.dev.com/og.png",
+				url: "https://hire.kaitakami.dev.com/og.png",
 				width: 1920,
 				height: 1080,
 			},
