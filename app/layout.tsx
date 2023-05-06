@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "hire.kaitakami.dev",
 		images: [
 			{
-				url: "https://hire.kaitakami.dev.com/og.png",
+				url: "https://hire.kaitakami.dev/og.png",
 				width: 1920,
 				height: 1080,
 			},
